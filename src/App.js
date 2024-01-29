@@ -1,6 +1,8 @@
 import "./App.css";
-import MyComponentF from "./MyComponentF";
+// import MyComponentF from "./MyComponentF";
+import Counter from "./Counter";
 //import MyComponentC from "./MyComponentC";
+
 // 1. 함수형 컴포넌트
 // function App() {
 //   const name = "리액트";
@@ -33,7 +35,8 @@ import MyComponentF from "./MyComponentF";
 // }
 
 const App = () => {
-  return <MyComponentF favoriteNumber={3333}>사잇값!!</MyComponentF>;
+  return <Counter></Counter>;
+  // <MyComponentF favoriteNumber={3333}>사잇값!!</MyComponentF>;
 };
 
 export default App;
