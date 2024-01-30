@@ -1,7 +1,9 @@
 import "./App.css";
 // import MyComponentF from "./MyComponentF";
-import Counter from "./Counter";
+// import Counter from "./Counter";
 //import MyComponentC from "./MyComponentC";
+// import Say from "./Say";
+import EventPractice from "./EventPractice";
 
 // 1. 함수형 컴포넌트
 // function App() {
@@ -35,7 +37,7 @@ import Counter from "./Counter";
 // }
 
 const App = () => {
-  return <Counter></Counter>;
+  return <EventPractice></EventPractice>;
   // <MyComponentF favoriteNumber={3333}>사잇값!!</MyComponentF>;
 };
 
