@@ -41,3 +41,8 @@
 - 이벤트 (EventPractice.js) : 사용자가 웹 브라우저에서 DOM 요소들과 상호 작용 하는 것
  => 이벤트 이름은 카멜 표기법으로. onclick은 onClick으로, onkeyup은 onKeyUp으로
  => DOM 요소에만 이벤트 설정 가능. 컴포넌트에는 불가능 <MyComponent onClick={doSomeThing}> </MyComponent> 이건 그냥 onClick인 props를 MyComponent에 전달할 뿐..
+
+
+- ref (ValidationSample.js): 특정 DOM에 작업을 해야 할 때 사용 
+        id도 사용할 수 있지만 id는 유니크해야한다. 같은 컴포넌트를 여러번 사용했을때 문제가 발생한다.
+      

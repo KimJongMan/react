@@ -1,9 +1,12 @@
+import { Component } from "react";
 import "./App.css";
 // import MyComponentF from "./MyComponentF";
 // import Counter from "./Counter";
 //import MyComponentC from "./MyComponentC";
 // import Say from "./Say";
-import EventPractice from "./EventPractice";
+// import EventPracticeC from "./EventPracticeC";
+//import EventPracticeF from "./EventPracticeF";
+import ValidationSample from "./ValidationSample";
 
 // 1. 함수형 컴포넌트
 // function App() {
@@ -36,9 +39,15 @@ import EventPractice from "./EventPractice";
 //   }
 // }
 
-const App = () => {
-  return <EventPractice></EventPractice>;
-  // <MyComponentF favoriteNumber={3333}>사잇값!!</MyComponentF>;
-};
+// const App = () => {
+//   return <EventPracticeF></EventPracticeF>;
+//   // <MyComponentF favoriteNumber={3333}>사잇값!!</MyComponentF>;
+// };
+
+class App extends Component {
+  render() {
+    return <ValidationSample></ValidationSample>;
+  }
+}
 
 export default App;
