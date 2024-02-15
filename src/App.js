@@ -7,6 +7,7 @@ import "./App.css";
 // import EventPracticeC from "./EventPracticeC";
 //import EventPracticeF from "./EventPracticeF";
 import ValidationSample from "./ValidationSample";
+// import RefSample from "./RefSample";
 
 // 1. 함수형 컴포넌트
 // function App() {
